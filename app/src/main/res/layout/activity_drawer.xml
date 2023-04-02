@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/drawer_layout"
+    tools:context=".Drawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:text="Four Wheeler Vehicle"
+            android:textColor="@color/purple_500"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="Tyre Puncture : Only 100 Rupees"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="General Service : Only 1000 Rupees"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="Vehicle Diagnostic : Only 1500 Rupees + Sparepart Charge"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="Route Finding Problem : Only 50 Rupees"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:text="Two Wheeler Vehicle"
+            android:textColor="@color/purple_500"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="Tyre Puncture : Only 60 Rupees"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="General Service : Only 200 Rupees"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Vehicle Diagnostic : Only 600 Rupees + Sparepart Charge"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Route Finding Problem : Only 50 Rupees"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:gravity="center"
+            android:text="Petrol :  Delivery Charge 50 Rupees + Petrol Charge"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:text="Desel : Delivery Charge 50 Rupees + Desel Charge"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Emergency Number: 8171147038"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Emergency Email: himaaanshupal03@gmail.com"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="196dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:text="ORDER"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

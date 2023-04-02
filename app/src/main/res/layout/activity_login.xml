@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/Login_email"
+        android:layout_width="305dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@color/purple_500"
+        android:hint="Your Email:"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/Login_password"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:hint="Your Password:"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/white"
+        android:text="  forgot Password?"
+        android:textColor="@color/design_default_color_on_secondary"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/login_register_button"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Sign up"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/login_progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_orange_dark"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#F46032</color>
+    <color name="purple_500">#FF5722</color>
+    <color name="purple_700">#EA420E</color>
+    <color name="teal_200">#EF5423</color>
+    <color name="teal_700">#FA5521</color>
+    <color name="black">#F45421</color>
+    <color name="white">@color/common_google_signin_btn_text_dark_default</color>
+</resources>
